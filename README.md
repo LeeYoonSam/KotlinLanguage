@@ -1,4 +1,4 @@
-# KotlinLanguage
+# Kotlin Language
 
 [Kotlin lang Hompage](https://kotlinlang.org)
 
@@ -6,7 +6,10 @@
 
 [Kotlin lang document](https://kotlinlang.org/docs/reference/)
 
+[Kotlin coding-conventions](https://kotlinlang.org/docs/reference/coding-conventions.html)
+
 [참고 사이트](http://thdev.tech/kotlin/2016/08/02/Basic-Kotlin-01.html)
+
 
 ## 코틀린 기본 문법 - 변수
 
@@ -290,10 +293,10 @@ if (x !in 0..array.size -1)
 
 ## 마무리
 * 코틀린은 안전한 null을 처리할 수 있도록 지원하고 있다.
+* 협업 하다보면 각자 다른 스타일로 코딩을 하게 될 가능성이 크므로 Kotlin 공식문서에 나와있는 코딩규칙을 기본으로 사용하는것이 좋을것 같다.
 
 ### 느낀점
 1. java보다 간단하게 사용할 수 있고 유용한 함수들이 많은것 같다.
 2. ${array.size}, ${x} 이런 코드는 React를 할때 Text 작성할때 써봤는데 아주 유용했다.
 3. 코드에서 ;(세미콜론)이 빠지므로 실수할 여지가 많을것 같고 java와 Kotlin 같이 사용한다면 두가지의 혼선이 예상되므로 신경써서 사용 해야할것 같다.
 4. 지속해서 스터디후 실제 프로젝트로 사용시 소스코드가 많이 줄어들것으로 예상되며, 코드 복잡도도 줄어들어 속도면에서도 향상될것 같다.
-
